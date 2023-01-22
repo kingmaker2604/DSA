@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int i;
+    int n;
+    cin>>"enter the number whose factors not to be printed by n:">>n;
+    for(i=1;i<=100;i++)
+    {
+        if(i%n==0)
+        {
+            continue;
+        }
+        cout<<i<<endl;
+    }
+    
+
+    return 0;
+}
